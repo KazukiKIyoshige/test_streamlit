@@ -26,3 +26,16 @@ allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/test_streamlit"]
+
+
+[tool.poetry]
+name = "test_streamlit"
+version = "0.1.0"
+description = "A Streamlit app"
+authors = ["Your Name skiyosige999@gmail.com"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.25.0"
+
+[tool.poetry.dev-dependencies]
